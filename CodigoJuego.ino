@@ -26,9 +26,9 @@ int medir_botella(){
    //Si luego de 2 segundos
      if(botella==1 && vdb==1) //Todo correcto baja y sube la tapa
           return 1;
-      else if(botella==0 && vdb==0) // Todo correcto no hay tapa
+     if(botella==0 && vdb==0) // Todo correcto no hay tapa
            return 0;
-      else if(botella==1 && vdb==0) //Baja la tapa pero no sube
+     if(botella==1 && vdb==0) //Baja la tapa pero no sube
           return 2;
   
     }
